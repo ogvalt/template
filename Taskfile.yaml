@@ -1,0 +1,29 @@
+version: '3'
+
+dotenv: ['.env']
+
+tasks:
+  setup:
+    desc: "Setting up the environment"
+    cmds:
+      - echo "Setting up the environment..."
+  build:
+    desc: "Build the project"
+    cmds:
+      - echo "Building the project..."
+  test:
+    desc: "Running tests"
+    cmds:
+      - echo "Running tests..."
+  lint:
+    desc: "Linting the code"
+    cmds:
+      - echo "Linting the code..."
+  deploy:
+    desc: "Deploying the project"
+    cmds:
+      - echo "Deploying the project..."
+  clean:
+    desc: "Cleaning up"
+    cmds:
+      - echo "Cleaning up..."
